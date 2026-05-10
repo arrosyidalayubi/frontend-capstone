@@ -13,7 +13,7 @@ export default function ViewRingkasan() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Kalori */}
-        <div className="bg-(--bg-card)rounded-2xl border border-(--border-subtle) shadow-sm flex flex-col justify-between h-36">
+        <div className="bg-(--bg-card) p-5 rounded-2xl border border-(--border-subtle) shadow-sm flex flex-col justify-between h-36">
           <div className="w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 flex items-center justify-center"><Flame size={20} /></div>
           <div>
             <h3 className="text-2xl font-bold text-(--text-main)">1.125</h3>
