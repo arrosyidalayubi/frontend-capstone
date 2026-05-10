@@ -11,9 +11,14 @@ export default function Header() {
         <a href="#tim" className="hover:text-green-700 transition">Tim</a>
         <a href="#kontak" className="hover:text-green-700 transition">Kontak</a>
       </nav>
+      <div className="flex space-x-4">
       <button className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-full font-medium transition" onClick={() => navigate('/onboarding')}>
         Mulai Sekarang
       </button>
+      <button className="bg-green-700 hover:bg-green-800 text-white px-6 py-2 rounded-full font-medium transition" onClick={() => navigate('/login')}>
+        Masuk
+      </button>
+      </div>
     </header>
   );
 }
