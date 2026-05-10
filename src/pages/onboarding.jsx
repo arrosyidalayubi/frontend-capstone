@@ -250,7 +250,7 @@ export default function Onboarding() {
   // --- RENDER UTAMA ---
   // PERBAIKAN 2: Membersihkan duplikasi return div yang berlapis-lapis
   return (
-    <div className="min-h-screen bg-linear-to-br from-[#FFFDF0] to-[#FDEEB7] flex flex-col font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFFDF0] to-[#FDEEB7] flex flex-col font-sans">
       
       {/* Header & Progress */}
       <div className="max-w-4xl w-full mx-auto px-6 py-8">
@@ -262,7 +262,7 @@ export default function Onboarding() {
         {/* Progress Bar Container */}
         <div className="w-full h-1.5 bg-gray-200/50 rounded-full overflow-hidden">
           <div 
-            className="h-full bg-linear-to-r from-green-400 to-amber-400 transition-all duration-500 ease-out"
+            className="h-full bg-gradient-to-r from-green-400 to-amber-400 transition-all duration-500 ease-out"
             style={{ width: `${(currentStep / totalSteps) * 100}%` }}
           ></div>
         </div>

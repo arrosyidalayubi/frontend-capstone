@@ -20,7 +20,7 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-[#FFFDF0] to-[#FDEEB7] flex items-center justify-center font-sans p-6">
+    <div className="min-h-screen bg-gradient-to-br from-[#FFFDF0] to-[#FDEEB7] flex items-center justify-center font-sans p-6">
       
       <div className="bg-white w-full max-w-md rounded-[2.5rem] p-10 shadow-2xl shadow-amber-900/10">
         
