@@ -7,8 +7,8 @@ export default function ViewPlaceholder({ title }) {
        <div className="w-24 h-24 bg-green-50 dark:bg-green-900/20 text-green-600 rounded-full flex items-center justify-center mb-6">
           <Activity size={48} />
        </div>
-       <h2 className="text-2xl font-bold text-[var(--text-main)] mb-2">Halaman {title}</h2>
-       <p className="text-[var(--text-muted)] max-w-md">Modul untuk {title} sedang dalam tahap pengembangan dan akan segera tersedia di pembaruan FitSmart berikutnya.</p>
+       <h2 className="text-2xl font-bold text-(--text-main) mb-2">Halaman {title}</h2>
+       <p className="text-(--text-muted) max-w-md">Modul untuk {title} sedang dalam tahap pengembangan dan akan segera tersedia di pembaruan FitSmart berikutnya.</p>
     </div>
   );
 }

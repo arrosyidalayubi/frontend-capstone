@@ -12,7 +12,7 @@ export default function Team() {
           {teamData.map((member) => (
             <div key={member.id} className="bg-white p-4 rounded-full flex items-center gap-4 shadow-sm border border-gray-100">
               <div className="w-12 h-12 bg-gray-200 rounded-full shrink-0 overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-green-200 to-green-600"></div>
+                <div className="w-full h-full bg-linear-to-br from-green-200 to-green-600"></div>
               </div>
               <div>
                 <h3 className="font-bold text-sm text-gray-900">{member.name}</h3>

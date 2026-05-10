@@ -27,7 +27,7 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="flex h-screen bg-[var(--bg-main)] font-sans text-[var(--text-main)] overflow-hidden transition-colors duration-300">
+    <div className="flex h-screen bg-(--bg-main) font-sans text-(--text-main) overflow-hidden transition-colors duration-300">
       
       {/* Overlay Gelap untuk Mobile saat Sidebar Terbuka */}
       {isSidebarOpen && (
@@ -59,7 +59,7 @@ export default function Dashboard() {
 
         {/* Scrollable Area */}
         {/* Ubah padding agar pas di HP (p-4) dan di Desktop (md:p-8) */}
-        <div className="flex-1 overflow-y-auto p-4 md:p-8 relative bg-[var(--bg-main)]">
+        <div className="flex-1 overflow-y-auto p-4 md:p-8 relative bg-(--bg-main)">
           <div className="max-w-6xl mx-auto">
             {renderContent()}
           </div>
